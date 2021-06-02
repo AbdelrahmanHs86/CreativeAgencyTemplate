@@ -1,0 +1,19 @@
+.mg-auto {
+  margin: auto;
+}
+
+.float-lf {
+  float: left;
+}
+
+.float-rt {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.block {
+  display: block;
+}

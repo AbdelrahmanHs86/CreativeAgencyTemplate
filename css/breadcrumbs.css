@@ -1,0 +1,295 @@
+.header {
+  position: relative;
+}
+
+.breadcrumbs .container,
+.post .container {
+  width: 75%;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar > .navs > li a {
+  color: rgb(0, 0, 0);
+}
+
+.breadcrumbs {
+  height: 160px;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.bread-title {
+  /* width: 30%; */
+  margin: 70px 0 0 20px;
+  font-size: 32px;
+}
+
+.bread-pages {
+  /* width: 65%; */
+  float: right;
+  margin: 70px 30px 0 0;
+}
+
+.bread-pages li {
+  display: inline-block;
+  font-size: 17px;
+}
+
+.bread-pages li + li::before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+.bread-pages li a {
+  color: var(--maincolor);
+}
+
+.post-body {
+  width: 75%;
+}
+
+.post-img {
+  width: 100%;
+}
+
+.post-img img {
+  width: 100%;
+}
+
+.post-title,
+.post-details,
+.post-desc,
+.post-link {
+  padding: 0 20px 0 0;
+}
+
+.tags {
+  margin: 35px 0;
+}
+
+.tags span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tags a {
+  display: inline-block;
+  padding: 10px 12px;
+  color: #10161a;
+  font-size: 14px;
+  background-color: var(--mid-gray);
+  font-weight: 100;
+}
+
+.tags a i {
+  color: var(--maincolor);
+}
+
+.tags a:hover,
+.tags a:hover i {
+  color: white;
+  background-color: var(--maincolor);
+}
+
+/* ***********Author */
+
+.blog-author {
+  padding: 20px;
+  border: 1px solid var(--mid-gray);
+}
+
+.author-img {
+  width: 20%;
+}
+
+.author-img img {
+  width: 100%;
+}
+
+.author-info {
+  padding-left: 15px;
+  width: 80%;
+}
+
+.author-info .author-header {
+  border-bottom: 1px solid var(--mid-gray);
+  padding-bottom: 20px;
+}
+
+.author-info .author-header h3 {
+  font-size: 22px;
+}
+
+.author-info p,
+.comment-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--gray);
+}
+
+.author-info .author-header,
+.author-info p,
+.comment-header,
+.comment-info p {
+  margin-bottom: 15px;
+}
+
+.author-info .social-links {
+  margin: 0;
+}
+
+.author-info .social-links li a {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.author-info .social-links li {
+  margin: 0;
+}
+
+/* ***************section-topic */
+
+.section-topic {
+  margin: 40px 0 25px 0;
+}
+.section-topic h3 {
+  font-size: 21px;
+}
+.section-topic .section-line {
+  margin: 15px 0 0 0;
+}
+
+/* ******************comments */
+
+.comment-body {
+  padding: 20px;
+  border: 1px solid var(--mid-gray);
+}
+
+.comment-img {
+  width: 10%;
+}
+
+.comment-img img {
+  width: 80%;
+}
+
+.comment-info {
+  width: 90%;
+  padding-left: 15px;
+}
+
+.comment-header h6 {
+  font-size: 12px;
+  color: var(--gray);
+  margin: 5px 0 0 15px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.comments .reply {
+  color: var(--maincolor);
+  font-size: 14px;
+}
+.comments .reply i {
+  color: var(--maincolor);
+  font-size: 10px;
+}
+
+#selected-comment {
+  border: 1px solid var(--maincolor);
+  background-color: var(--mid-gray);
+}
+/* ********************* Sidebar ******************/
+
+.post-sidebar {
+  width: 25%;
+  padding-left: 25px;
+}
+
+.search {
+  background-color: #fafafa;
+  border: transparent;
+  border-radius: 3px;
+  position: relative;
+}
+
+.post-sidebar .search input {
+  width: 100%;
+  border-radius: 3px;
+  border: transparent;
+  background-color: #fafafa;
+  height: 40px;
+  padding: 0 50px 0 10px;
+}
+
+.search button {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: #6195ff;
+  cursor: pointer;
+}
+
+.cate {
+  border-top: 1px solid var(--mid-gray);
+  padding: 10px 0;
+}
+
+.cate a {
+  color: #10161a;
+  font-size: 15px;
+}
+
+.cate a:hover {
+  color: var(--maincolor);
+}
+
+.cate span {
+  font-size: 14px;
+  color: var(--maincolor);
+}
+
+.tags .side-tags a {
+  margin: 2px 0;
+}
+
+.side-recent-post {
+  margin: 30px 0;
+}
+
+.side-post-header {
+  width: 65%;
+  padding-left: 15px;
+}
+
+.side-post-header .side-post-title {
+  font-size: 16px;
+  color: #10161a;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.side-post-header .side-post-title:hover {
+  color: var(--maincolor);
+}
+
+.side-post-header .side-post-details {
+  font-size: 12px;
+}
+
+.side-post-img {
+  width: 35%;
+}
+
+.side-post-img img {
+  width: 100%;
+}

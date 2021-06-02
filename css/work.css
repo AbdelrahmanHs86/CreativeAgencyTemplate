@@ -1,0 +1,38 @@
+.workdone-content {
+  background-image: url(/images/background/background2.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 280px;
+  position: relative;
+  text-align: center;
+  /* margin: 50px auto; */
+}
+
+.summary {
+  width: 20%;
+  margin: 0 2.5%;
+  padding: 60px 0;
+}
+
+.summary-icon,
+.summary-no,
+.summary-disc {
+  margin: 10px 0;
+}
+
+.summary-icon {
+  color: #6195ff;
+  font-size: 30px;
+}
+
+.summary-no {
+  font-size: 37px;
+  color: #fff;
+}
+
+.summary-disc {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+}

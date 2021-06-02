@@ -1,0 +1,47 @@
+.testimonial {
+  background-image: url(../images/background/background3.webp);
+  background-attachment: fixed;
+  background-position: cover;
+  position: relative;
+  height: 400px;
+}
+
+.test-body {
+  width: 80%;
+  margin: auto;
+}
+
+.test-content {
+  margin: 100px auto 0 0%;
+  width: 50%;
+  position: relative;
+}
+
+.test-title {
+  padding: 10px 0 30px 85px;
+}
+
+.test-title img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 10px;
+}
+
+.test-title h3 {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+.test-title span {
+  color: #6195ff;
+  font-weight: 200;
+}
+
+.test-desc p {
+  color: white;
+  line-height: 1.6;
+}

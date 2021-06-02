@@ -1,0 +1,46 @@
+.about-content {
+  margin: auto;
+}
+
+.about-card {
+  text-align: center;
+  width: 30%;
+  height: 290px;
+  border: 1px solid rgb(221, 221, 221);
+  padding-top: 15px;
+}
+
+.about-card.mid-card {
+  margin: auto 5%;
+}
+
+.card-title,
+.card-link,
+.card-text,
+.card-icon {
+  margin: 15px;
+}
+
+.card-icon {
+  color: #6195ff;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-size: 25px;
+  transition: color 0.2s;
+}
+
+.about-card:hover .card-title {
+  color: #fff;
+}
+
+.card-text {
+  line-height: 1.5;
+  color: rgb(145, 145, 145);
+  text-transform: capitalize;
+}
+
+.card-link {
+  color: #6195ff;
+}

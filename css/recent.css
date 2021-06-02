@@ -1,0 +1,55 @@
+.recent {
+  background-color: #fafafa;
+}
+
+.recent-post {
+  margin: 0 1.6%;
+  padding-bottom: 20px;
+  width: 30%;
+  background-color: #fff;
+  position: relative;
+}
+
+.post-title,
+.post-details,
+.post-desc,
+.post-link {
+  margin-bottom: 18px;
+  padding: 0 0 0 20px;
+}
+
+.post-img {
+  margin-bottom: 15px;
+}
+
+.post-img img {
+  width: 100%;
+}
+.post-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.post-details {
+  display: inline-block;
+}
+.post-details li {
+  margin-right: 15px;
+  float: left;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.post-details i {
+  color: #6195ff;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.post-desc {
+  color: #8f8f8f;
+  line-height: 1.6;
+}
+
+.post-link {
+  color: #6195ff;
+}

@@ -1,0 +1,192 @@
+/* 
+
+/* 
+
+1.General Styles
+2.Common Styles
+3.Header
+4.Section
+  4.1 Home
+  4.2 About
+  4.3 Portfolio
+  4.4 Services
+  4.5 Prices
+  4.6 Team
+  4.7 Blog
+  4.8 Contact 
+5.Footer
+*/
+
+/**************************  Common ***************************/
+
+/* colors */
+
+:root {
+  --maincolor: #6195ff;
+  --light-gray: #fafafa;
+  --mid-gray: #f4f4f4;
+  --gray: #868f9b;
+  --dark-blue: #10161a;
+}
+
+/* hover effect (opacity) */
+
+.hover-opacity {
+  transition: opacity 0.5s;
+}
+
+.hover-opacity:hover {
+  opacity: 0.8;
+}
+
+/* black hover effect (L to R) */
+.ltr-bk-effect {
+  position: relative;
+}
+
+.ltr-bk-effect:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: #000;
+  transition: width 0.2s;
+}
+
+.ltr-bk-effect:hover:after {
+  width: 100%;
+}
+
+.ttb-bk-effect {
+  position: relative;
+}
+
+.ttb-bk-effect:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  background-color: #000;
+  transition: height 0.2s;
+}
+
+.ttb-bk-effect:hover:after {
+  height: 100%;
+}
+
+/* black hover effect (T to B) */
+
+/* Section Header */
+
+.section-header {
+  text-align: center;
+}
+
+.section-title {
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.section-line {
+  width: 40px;
+  height: 4px;
+  background-color: #6195ff;
+  margin: 0 auto 65px auto;
+}
+
+.pd-y {
+  padding: 120px 0;
+}
+
+/**************************  General ***************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+.container {
+  width: 77%;
+  /* background-color: rgb(22, 22, 22); */
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 15px 35px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: inherit;
+  border: 2px solid transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.btn {
+  border-radius: 3px;
+  padding: 14px 38px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.blackoverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(26, 25, 27, 0.75);
+  width: 100%;
+  height: 100%;
+}
+
+/**************************  Header ***************************/
+
+/**************************  About ***************************/
+
+/***********************  Portfolio ************************/
+
+/***********************  Services ************************/
+
+/***********************  Services2 ************************/
+
+/***********************  Work Done ************************/
+
+/***********************  Price ************************/
+
+/**************************  Testimonial ***********************/
+
+/**************************  OurTeam ***********************/
+
+/**************************  Recent News ***********************/
+
+/**************************  Contact **************************/
+
+/**************************  Footer Contact ***********************/

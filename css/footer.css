@@ -1,0 +1,44 @@
+.footer {
+  background-color: #1c1d21;
+  padding: 75px 0;
+}
+
+.footer-logo {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 20px 6px;
+}
+
+.social-links li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #6195ff;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+}
+
+.copyright {
+  color: #8f8f8f;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+.copyright a {
+  color: #6195ff;
+  text-transform: uppercase;
+}

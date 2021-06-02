@@ -1,0 +1,69 @@
+.contact-details,
+.contact-icon,
+.contact-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-details {
+  text-align: center;
+  margin: auto auto 40px auto;
+}
+
+.contact-item {
+  width: 30%;
+  margin: 0 1.6%;
+}
+.contact-icon {
+  color: #6195ff;
+  font: 35px;
+}
+
+.contact-title {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.contact-desc {
+  color: #8f8f8f;
+}
+
+.contact-form {
+  text-align: center;
+  margin: auto;
+  width: 66%;
+}
+.contact-input,
+.contact-message {
+  width: 100%;
+  background-color: #f4f4f4;
+  border-color: transparent;
+  border-bottom: 2px solid #eee;
+  color: #354052;
+  opacity: 0.5;
+  border-radius: 3px;
+  padding-left: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-input {
+  height: 45px;
+}
+
+.name-email .contact-input {
+  width: 48.5%;
+}
+.contact-input.name {
+  margin-right: 2.2%;
+}
+.contact-message {
+  min-height: 80px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.contact-btn {
+  border-radius: 3px;
+  margin-top: 18px;
+}
