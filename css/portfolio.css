@@ -3,16 +3,15 @@
 }
 
 .port-content {
-  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.port-card.mid-card {
-  margin: auto 5%;
-}
+
 
 .port-card {
   text-align: center;
-  width: 33.333333%;
+  flex: 1 1 30%;
   padding: 20px;
   position: relative;
 }
@@ -104,4 +103,20 @@
 .port-card:hover .layer-title,
 .port-card:hover .layer-icon {
   top: 0px;
+}
+
+
+
+@media screen and (max-width:1024px) {
+
+  .port-card {
+    flex: 1 1 45%;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  .port-card {
+    flex: 1 1 100%;
+  }
 }
