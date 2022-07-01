@@ -1,15 +1,19 @@
-.services-card {
-  border: 1px solid rgb(236, 236, 236);
-  width: 31%;
-  height: 210px;
-  padding: 40px 20px 40px 70px;
-  position: relative;
-  margin-bottom: 30px;
+.services-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /* align-items: center; */
 }
 
-.services-card.mid-card {
-  margin: 0 3%;
+.services-card {
+  flex: 1 1 30%;
+  /* height: 210px; */
+  margin: 20px 10px;
+  padding: 40px 20px 40px 70px;
+  position: relative;
+  border: 1px solid rgb(236, 236, 236);
 }
+
 
 .services-card .icon {
   position: absolute;
@@ -36,6 +40,25 @@
   color: #fff;
 }
 
+
+
+@media screen and (max-width:1024px) {
+  .services-content {
+    flex-flow: row wrap;
+  }
+
+  .services-card {
+    flex: 1 1 45%;
+  }
+}
+
+
+@media screen and (max-width:769px) {
+  .services-content {
+    flex-flow: column;
+  }
+}
+
 /***********************  Services2 ************************/
 
 .services2 {
@@ -43,19 +66,24 @@
 }
 
 .services2-content {
-  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.services2-lf-content {
+  flex: 0.5;
   padding: 10px 10px;
 }
 
-.services2-content .section-header {
+.services2-lf-content .section-header {
   text-align: left;
 }
 
-.services2-content .section-header .section-line {
+.services2-lf-content .section-header .section-line {
   margin: 0 0 70px 0;
 }
 
-.services2-content .desc {
+.services2-lf-content .desc {
   margin: 20px 0;
   line-height: 1.5;
   color: #8f8f8f;
@@ -78,11 +106,13 @@
 .services2-list::before {
   content: "";
 }
+
 /* ****** */
 
 .services2-slider {
-  width: 50%;
+  flex: 0.5;
 }
+
 .slider-img {
   padding: 10px;
 }
@@ -96,6 +126,7 @@
   text-align: center;
   cursor: pointer;
 }
+
 .slider-bollets li {
   display: inline-block;
   width: 10px;
@@ -115,4 +146,20 @@
   width: 20px;
   border-radius: 10px;
   background-color: #6195ff;
+}
+
+
+@media screen and (max-width:1024px) {
+  .services2-content {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .services2-lf-content {
+    flex: 1;
+  }
+
+  .services2-slider {
+    flex: 1;
+  }
 }
