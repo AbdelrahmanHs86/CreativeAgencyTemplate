@@ -1,6 +1,10 @@
+.price .prices-cards {
+  display: flex;
+  justify-content: center;
+}
+
 .price .card {
   border: 1px solid #efefef;
-  width: 30%;
   height: 470px;
   padding: 15px;
   text-align: center;
@@ -9,21 +13,22 @@
 }
 
 .card .card-desc,
-.card > .card-plan {
+.card>.card-plan {
   margin: 20px 0;
   text-transform: capitalize;
   display: block;
   color: #8f8f8f;
 }
-.card > .card-plan {
+
+.card>.card-plan {
   font-size: 20px;
 }
 
-.card:hover > .card-plan {
+.card:hover>.card-plan {
   color: #6195ff;
 }
 
-.card > .card-price {
+.card>.card-price {
   font-size: 42px;
   margin: auto;
   border: 2px solid #6195ff;
@@ -39,7 +44,7 @@
   font-size: 13px;
 }
 
-.card:hover > .card-price {
+.card:hover>.card-price {
   color: #fff;
 }
 
@@ -51,4 +56,16 @@
   margin: 15px 0;
   text-transform: capitalize;
   font-size: 15px;
+}
+
+
+@media screen and (max-width:769px) {
+  .price .prices-cards {
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .price .card {
+    margin-bottom: 20px;
+  }
 }
