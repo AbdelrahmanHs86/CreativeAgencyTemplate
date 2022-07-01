@@ -105,6 +105,15 @@
   padding: 120px 0;
 }
 
+@media screen and (max-width:400px) {
+
+  .section-title {
+    font-size: 35px;
+
+  }
+}
+
+
 /**************************  General ***************************/
 
 * {
