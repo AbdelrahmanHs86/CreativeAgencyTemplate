@@ -1,17 +1,33 @@
-.workdone-content {
+.workdone {
+  position: relative;
+}
+
+
+.workdone-bg {
   background-image: url(/images/background/background2.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 280px;
-  position: relative;
+  /* min-height: 280px; */
+  /* max-height: 500px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.workdone-content .container {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  /* margin: 50px auto; */
 }
 
 .summary {
-  width: 20%;
-  margin: 0 2.5%;
+  flex: 25%;
+  margin: 0 10px;
   padding: 60px 0;
 }
 
@@ -35,4 +51,17 @@
   display: inline-block;
   font-size: 18px;
   color: #fff;
+}
+
+
+
+@media screen and (max-width:769px) {
+  .workdone-content .container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .summary {
+    flex: 45%;
+  }
 }
