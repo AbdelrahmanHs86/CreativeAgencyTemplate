@@ -2,10 +2,14 @@
   background-color: #fafafa;
 }
 
+.recent-content {
+  display: flex;
+}
+
 .recent-post {
   margin: 0 1.6%;
   padding-bottom: 20px;
-  width: 30%;
+  flex: 33.33%;
   background-color: #fff;
   position: relative;
 }
@@ -25,13 +29,16 @@
 .post-img img {
   width: 100%;
 }
+
 .post-title {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
+
 .post-details {
   display: inline-block;
 }
+
 .post-details li {
   margin-right: 15px;
   float: left;
@@ -52,4 +59,15 @@
 
 .post-link {
   color: #6195ff;
+}
+
+
+@media screen and (max-width:1024px) {
+  .recent-content {
+    flex-flow: column;
+  }
+
+  .recent-post {
+    margin: 10px 0;
+  }
 }
