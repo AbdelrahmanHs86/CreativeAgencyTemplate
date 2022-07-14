@@ -7,13 +7,14 @@
 
 .about-card {
   text-align: center;
-  flex: 1 1 250px;
+  flex: 25%;
   max-height: 350px;
-  max-width: 320px;
+  max-width: 370px;
   margin: 15px 20px;
   padding: 30px 20px;
   border: 1px solid rgb(221, 221, 221);
 }
+
 
 
 .card-title,
