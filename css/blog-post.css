@@ -2,7 +2,6 @@
   position: relative;
 }
 
-.breadcrumbs .container,
 .post .container {
   width: 75%;
 }
@@ -11,42 +10,10 @@
   background-color: rgb(255, 255, 255);
 }
 
-.navbar > .navs > li a {
+.navbar>.navs>li a {
   color: rgb(0, 0, 0);
 }
 
-.breadcrumbs {
-  height: 160px;
-  background-color: #fafafa;
-  position: relative;
-}
-
-.bread-title {
-  /* width: 30%; */
-  margin: 70px 0 0 20px;
-  font-size: 32px;
-}
-
-.bread-pages {
-  /* width: 65%; */
-  float: right;
-  margin: 70px 30px 0 0;
-}
-
-.bread-pages li {
-  display: inline-block;
-  font-size: 17px;
-}
-
-.bread-pages li + li::before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-
-.bread-pages li a {
-  color: var(--maincolor);
-}
 
 .post-body {
   width: 75%;
@@ -157,9 +124,11 @@
 .section-topic {
   margin: 40px 0 25px 0;
 }
+
 .section-topic h3 {
   font-size: 21px;
 }
+
 .section-topic .section-line {
   margin: 15px 0 0 0;
 }
@@ -196,6 +165,7 @@
   color: var(--maincolor);
   font-size: 14px;
 }
+
 .comments .reply i {
   color: var(--maincolor);
   font-size: 10px;
@@ -205,6 +175,7 @@
   border: 1px solid var(--maincolor);
   background-color: var(--mid-gray);
 }
+
 /* ********************* Sidebar ******************/
 
 .post-sidebar {
