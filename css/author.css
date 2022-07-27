@@ -1,0 +1,56 @@
+/* ***********Author */
+
+.blog-author {
+    padding: 20px;
+    border: 1px solid var(--mid-gray);
+}
+
+.author-img {
+    width: 20%;
+}
+
+.author-img img {
+    width: 100%;
+}
+
+.author-info {
+    padding-left: 15px;
+    width: 80%;
+}
+
+.author-info .author-header {
+    border-bottom: 1px solid var(--mid-gray);
+    padding-bottom: 20px;
+}
+
+.author-info .author-header h3 {
+    font-size: 22px;
+}
+
+.author-info p,
+.comment-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--gray);
+}
+
+.author-info .author-header,
+.author-info p,
+.comment-header,
+.comment-info p {
+    margin-bottom: 15px;
+}
+
+.author-info .social-links {
+    margin: 0;
+}
+
+.author-info .social-links li a {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.author-info .social-links li {
+    margin: 0;
+}
