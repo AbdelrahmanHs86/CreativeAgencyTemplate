@@ -1,23 +1,25 @@
 .breadcrumbs .container {
     width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .breadcrumbs {
-    height: 160px;
+    /* height: 160px; */
     background-color: #fafafa;
     position: relative;
+    padding: 60px 0;
 }
 
 .bread-title {
-    /* width: 30%; */
-    margin: 70px 0 0 20px;
     font-size: 32px;
+    margin: 10px 0;
 }
 
 .bread-pages {
-    /* width: 65%; */
-    float: right;
-    margin: 70px 30px 0 0;
+    margin: 10px 0;
 }
 
 .bread-pages li {
@@ -33,4 +35,16 @@
 
 .bread-pages li a {
     color: var(--maincolor);
+}
+
+
+@media screen and (max-width:769px) {
+
+    .breadcrumbs .container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
