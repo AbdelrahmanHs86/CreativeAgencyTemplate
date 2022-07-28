@@ -73,3 +73,7 @@
     border: 1px solid var(--maincolor);
     background-color: var(--mid-gray);
 }
+
+#selected-comment .comment-header h3 {
+    color: var(--maincolor);
+}
