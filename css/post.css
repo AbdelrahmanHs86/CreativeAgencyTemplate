@@ -40,6 +40,7 @@
 @media screen and (max-width:1024px) {
   .post .container {
     flex-flow: column;
+    width: 92%;
   }
 }
 
