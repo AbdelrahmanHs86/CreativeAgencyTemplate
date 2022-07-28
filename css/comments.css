@@ -5,6 +5,8 @@
     border: 1px solid var(--mid-gray);
 }
 
+
+
 .comment-img {
     width: 10%;
 }
@@ -16,6 +18,17 @@
 .comment-info {
     width: 90%;
     padding-left: 15px;
+}
+
+.comment-header,
+.comment-info p {
+    margin-bottom: 15px;
+}
+
+.comment-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--gray);
 }
 
 .comment-header h6 {
