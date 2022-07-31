@@ -1,0 +1,61 @@
+.header {
+  position: relative;
+}
+
+.post .container {
+  width: 90%;
+  display: flex;
+
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar>.navs>li a {
+  color: rgb(0, 0, 0);
+}
+
+
+.post-body {
+  flex: 75%;
+}
+
+.post-img {
+  width: 100%;
+}
+
+.post-img img {
+  width: 100%;
+}
+
+.post-title,
+.post-details,
+.post-desc,
+.post-link {
+  padding: 0 20px 0 0;
+}
+
+
+@media screen and (max-width:1024px) {
+  .post .container {
+    flex-flow: column;
+    width: 92%;
+  }
+}
+
+
+
+/* ***************section-topic */
+
+.section-topic {
+  margin: 40px 0 25px 0;
+}
+
+.section-topic h3 {
+  font-size: 21px;
+}
+
+.section-topic .section-line {
+  margin: 15px 0 0 0;
+}

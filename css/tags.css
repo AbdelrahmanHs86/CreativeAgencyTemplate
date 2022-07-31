@@ -1,0 +1,31 @@
+.tags {
+    margin: 35px 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.tags span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tags a {
+    display: inline-block;
+    padding: 10px 12px;
+    margin: 0px 2px 5px;
+    color: #10161a;
+    font-size: 14px;
+    background-color: var(--mid-gray);
+    font-weight: 100;
+}
+
+.tags a i {
+    color: var(--maincolor);
+}
+
+.tags a:hover,
+.tags a:hover i {
+    color: white;
+    background-color: var(--maincolor);
+}

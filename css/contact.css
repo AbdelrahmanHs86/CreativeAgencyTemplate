@@ -7,13 +7,14 @@
 
 .contact-details {
   text-align: center;
-  margin: auto auto 40px auto;
+  display: flex;
 }
 
 .contact-item {
-  width: 30%;
+  flex: 33.33%;
   margin: 0 1.6%;
 }
+
 .contact-icon {
   color: #6195ff;
   font: 35px;
@@ -30,9 +31,14 @@
 
 .contact-form {
   text-align: center;
-  margin: auto;
-  width: 66%;
+  display: flex;
+  flex-flow: column;
+  /* max-width: 65%; */
+  /* justify-content: center; */
+  /* margin: 0 auto;
+  margin-left: 16.66666667%; */
 }
+
 .contact-input,
 .contact-message {
   width: 100%;
@@ -51,12 +57,19 @@
   height: 45px;
 }
 
-.name-email .contact-input {
-  width: 48.5%;
+.name-email {
+  display: flex;
+  /* flex-flow: row wrap; */
 }
+
+.name-email .contact-input {
+  /* flex: 50%; */
+}
+
 .contact-input.name {
   margin-right: 2.2%;
 }
+
 .contact-message {
   min-height: 80px;
   padding-top: 10px;
@@ -66,4 +79,41 @@
 .contact-btn {
   border-radius: 3px;
   margin-top: 18px;
+}
+
+.name-email,
+.submit,
+.contact-message,
+.contact-btn {
+  flex: 1;
+}
+
+
+
+@media screen and (max-width:769px) {
+
+
+  .contact-details {
+    flex-flow: column;
+  }
+
+  .contact-item {
+    margin: 10px 1.6%;
+  }
+
+  .contact-form {
+    /* width: 100%;
+    margin: 0; */
+  }
+
+}
+
+@media screen and (max-width:480px) {
+  .name-email {
+    flex-flow: column;
+  }
+
+  .name-email .contact-input {
+    /* flex: 1; */
+  }
 }
