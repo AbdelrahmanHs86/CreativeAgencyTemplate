@@ -107,7 +107,7 @@
 /**************************  Home ***************************/
 
 .home {
-  background-image: url(/images/background/background1.webp);
+  background-image: url(./images/background/background1.webp);
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
