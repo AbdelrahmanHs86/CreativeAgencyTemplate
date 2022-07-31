@@ -1,8 +1,10 @@
 /* ********************* Sidebar ******************/
 
 .post-sidebar {
-    flex: 25%;
+    flex: 30%;
     padding-left: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .search {
@@ -32,9 +34,16 @@
     cursor: pointer;
 }
 
+.category {
+    display: flex;
+    flex-direction: column;
+}
+
 .cate {
     border-top: 1px solid var(--mid-gray);
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cate a {
@@ -55,12 +64,18 @@
     margin: 2px 0;
 }
 
+.side-recent {
+    display: flex;
+    flex-direction: column;
+}
+
 .side-recent-post {
     margin: 30px 0;
+    display: flex;
 }
 
 .side-post-header {
-    width: 65%;
+    flex: 65%;
     padding-left: 15px;
 }
 
@@ -77,12 +92,29 @@
 
 .side-post-header .side-post-details {
     font-size: 12px;
+    color: var(--maincolor);
 }
 
 .side-post-img {
-    width: 35%;
+    flex: 50%;
 }
 
 .side-post-img img {
     width: 100%;
+}
+
+
+@media screen and (max-width:1024px) {
+    .post-sidebar {
+        padding-left: unset;
+    }
+
+    .side-post-img {
+        flex: 20%;
+        max-width: 150px;
+    }
+
+    .side-post-header .side-post-details {
+        margin-top: 5px;
+    }
 }
