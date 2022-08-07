@@ -1,3 +1,4 @@
+
 .workdone {
   position: relative;
 }
@@ -20,13 +21,19 @@
 
 
 .workdone-content .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
 .summary {
-  flex: 25%;
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
   margin: 0 10px;
   padding: 60px 0;
 }
@@ -57,11 +64,18 @@
 
 @media screen and (max-width:769px) {
   .workdone-content .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
   }
 
   .summary {
-    flex: 45%;
+    -webkit-box-flex: 45%;
+        -ms-flex: 45%;
+            flex: 45%;
   }
 }
