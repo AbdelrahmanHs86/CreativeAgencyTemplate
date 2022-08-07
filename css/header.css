@@ -1,3 +1,4 @@
+
 .header {
   position: absolute;
   width: 100%;
@@ -31,7 +32,11 @@
 
 .navbar>.navs>li>a {
   padding: 20px 8px;
+  -webkit-transition: -webkit-text-decoration 2s;
+  transition: -webkit-text-decoration 2s;
+  -o-transition: text-decoration 2s;
   transition: text-decoration 2s;
+  transition: text-decoration 2s, -webkit-text-decoration 2s;
 }
 
 .navbar>.navs>li a {
@@ -49,6 +54,8 @@
   margin-top: 1px;
   background-color: #6195ff;
   display: block;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s;
 }
 
@@ -67,6 +74,8 @@
 
 .fa-angle-down {
   font-size: 10px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -75,9 +84,13 @@
   text-align: center;
   top: 90%;
   left: 50%;
-  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -91,7 +104,9 @@
 }
 
 .dropdown:hover .fa-angle-down {
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .blog-post {
@@ -120,7 +135,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
   width: 60%;
   /* vertical-align: middle; */
