@@ -1,3 +1,4 @@
+
 /* ******************comments */
 
 
@@ -5,19 +6,26 @@
 .comment-body {
     padding: 20px;
     border: 1px solid var(--mid-gray);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .comment-reply {
-    flex: 0 0 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
 }
 
 
 
 .comment-img {
     width: 10%;
-    flex: 20%;
+    -webkit-box-flex: 20%;
+        -ms-flex: 20%;
+            flex: 20%;
 }
 
 .comment-img img {
@@ -25,14 +33,22 @@
 }
 
 .comment-info {
-    flex: 80%;
+    -webkit-box-flex: 80%;
+        -ms-flex: 80%;
+            flex: 80%;
     padding-left: 15px;
 }
 
 .comment-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .comment-header,
