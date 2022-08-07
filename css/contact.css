@@ -1,3 +1,4 @@
+
 .contact-details,
 .contact-icon,
 .contact-title {
@@ -7,11 +8,15 @@
 
 .contact-details {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .contact-item {
-  flex: 33.33%;
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
   margin: 0 1.6%;
 }
 
@@ -31,8 +36,13 @@
 
 .contact-form {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
   /* max-width: 65%; */
   /* justify-content: center; */
   /* margin: 0 auto;
@@ -58,6 +68,8 @@
 }
 
 .name-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /* flex-flow: row wrap; */
 }
@@ -85,7 +97,9 @@
 .submit,
 .contact-message,
 .contact-btn {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 
@@ -94,7 +108,10 @@
 
 
   .contact-details {
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
 
   .contact-item {
@@ -110,7 +127,10 @@
 
 @media screen and (max-width:480px) {
   .name-email {
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
 
   .name-email .contact-input {
