@@ -1,10 +1,17 @@
+
 .price .prices-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .price .card {
-  flex: 30%;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
   border: 1px solid #efefef;
   /* height: 470px; */
   padding: 15px;
@@ -62,8 +69,13 @@
 
 @media screen and (max-width:769px) {
   .price .prices-cards {
-    flex-flow: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .price .card {
