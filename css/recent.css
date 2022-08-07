@@ -1,15 +1,20 @@
+
 .recent {
   background-color: #fafafa;
 }
 
 .recent-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .recent-post {
   margin: 0 1.6%;
   padding-bottom: 20px;
-  flex: 33.33%;
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
   background-color: #fff;
   position: relative;
 }
@@ -64,7 +69,10 @@
 
 @media screen and (max-width:1024px) {
   .recent-content {
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
 
   .recent-post {
