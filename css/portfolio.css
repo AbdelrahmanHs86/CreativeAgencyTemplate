@@ -1,17 +1,25 @@
+
 .portfolio {
   background-color: #fafafa;
 }
 
 .port-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 
 
 .port-card {
   text-align: center;
-  flex: 1 1 30%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
   padding: 20px;
   position: relative;
 }
@@ -30,6 +38,8 @@
   /* z-index: -1; */
   background-color: rgba(0, 0, 0, 0.671);
   opacity: 0;
+  -webkit-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
 
@@ -52,7 +62,9 @@
   top: 50%;
   left: 50%;
   width: 60%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   z-index: 1;
   opacity: 0;
 }
@@ -65,29 +77,45 @@
 .layer-icon {
   color: white;
   margin-bottom: 15px;
+  -webkit-transition: top 0.2s;
+  -o-transition: top 0.2s;
   transition: top 0.2s;
-  transition-delay: 0.1s;
+  -webkit-transition-delay: 0.1s;
+       -o-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
 .layer-category {
   color: #6195ff;
   margin-bottom: 15px;
   font-weight: 400;
+  -webkit-transition: top 0.2s;
+  -o-transition: top 0.2s;
   transition: top 0.2s;
-  transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
 }
 
 .layer-title {
+  -webkit-transition: top 0.2s;
+  -o-transition: top 0.2s;
   transition: top 0.2s;
-  transition-delay: 0.1s;
+  -webkit-transition-delay: 0.1s;
+       -o-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
 .layer-icon {
   background-color: #6195ff;
   text-align: center;
   padding: 18px 18px;
+  -webkit-transition: top 0.2s;
+  -o-transition: top 0.2s;
   transition: top 0.2s;
-  transition-delay: 0.11s;
+  -webkit-transition-delay: 0.11s;
+       -o-transition-delay: 0.11s;
+          transition-delay: 0.11s;
 }
 
 .layer-title,
@@ -110,13 +138,17 @@
 @media screen and (max-width:1024px) {
 
   .port-card {
-    flex: 1 1 45%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 45%;
+            flex: 1 1 45%;
   }
 }
 
 @media screen and (max-width:600px) {
 
   .port-card {
-    flex: 1 1 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
   }
 }
