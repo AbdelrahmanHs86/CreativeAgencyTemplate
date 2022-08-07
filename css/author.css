@@ -3,11 +3,15 @@
 .blog-author {
     padding: 20px;
     border: 1px solid var(--mid-gray);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .author-img {
-    flex: 25%;
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
     min-width: 200px;
     padding: 10px;
     padding-top: 0;
@@ -19,14 +23,20 @@
 
 .author-info {
     padding-left: 15px;
-    flex: 70%;
+    -webkit-box-flex: 70%;
+        -ms-flex: 70%;
+            flex: 70%;
 }
 
 .author-info .author-header {
     border-bottom: 1px solid var(--mid-gray);
     padding-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .author-info .author-header h3 {
@@ -61,28 +71,44 @@
 
 @media screen and (max-width: 480px) {
     .blog-author {
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         text-align: center;
     }
 
     .author-header {
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
 
     }
 
     .author-img {
         width: 40%;
         min-width: 200px;
-        flex: 20%;
+        -webkit-box-flex: 20%;
+            -ms-flex: 20%;
+                flex: 20%;
 
     }
 
     .author-info {
         padding-left: 0;
-        flex: 80%;
+        -webkit-box-flex: 80%;
+            -ms-flex: 80%;
+                flex: 80%;
     }
 
     .author-info .author-header h3,
