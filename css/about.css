@@ -1,13 +1,24 @@
+
 .about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-card {
   text-align: center;
-  flex: 25%;
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
   max-height: 350px;
   max-width: 370px;
   margin: 15px 20px;
@@ -31,6 +42,8 @@
 .card-title {
   text-transform: capitalize;
   font-size: 25px;
+  -webkit-transition: color 0.2s;
+  -o-transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -53,11 +66,21 @@
 @media screen and (max-width:1024px) {
 
   .about-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .about-card {
