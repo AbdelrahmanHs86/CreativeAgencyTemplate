@@ -303,12 +303,17 @@ display:none;
     flex-flow:column;
     align-items:start;
     background-color:#1C1D21;
+    opacity:0;
+    visibility:hidden;
     transform: translateX(100%);
-    transition:all 0.15s ease-in;
+    /* transition:all 0.15s ease-in , transform 0.1s; */
   }
 
   .nav-toggle.navs{
     transform: translateX(0);
+    visibility: visible;
+    opacity:1;
+    transition:all 0.16s ease-in;
   }
 
   .navbar .navs> li{
@@ -323,7 +328,7 @@ display:none;
   .navbar>.navs>li a{
     color:white;
     width:100%;
-    padding:10px 10px;
+    padding:12px 10px;
   }
 
   .navbar .navs> li a:hover, .navbar .navs> li a:focus{
