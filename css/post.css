@@ -1,22 +1,10 @@
 
-.header {
-  position: relative;
-}
-
 .post .container {
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 
-}
-
-.navbar {
-  background-color: rgb(255, 255, 255);
-}
-
-.navbar>.navs>li a {
-  color: rgb(0, 0, 0);
 }
 
 
