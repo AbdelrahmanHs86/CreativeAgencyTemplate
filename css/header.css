@@ -297,7 +297,7 @@ display:none;
     padding:0;
     overflow-y: auto;
     position:fixed;
-    top:58px;
+    top:8vh;
     right:0;
     display:flex;
     flex-flow:column;
