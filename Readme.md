@@ -9,13 +9,12 @@
 
 <div align='center'> 
 
-  <img src='https://img.shields.io/badge/Version-v1.1-gray?style=for-the-badge'>
+  
+  <a href="https://github.com/AbdelrahmanHs86/CreativeAgencyTemplate/releases/tag/v1.1" > 
+  <img src='https://img.shields.io/badge/Version-v1.1-gray?style=for-the-badge'> </a>
   
   <a href='https://abdelrahmanhs86.github.io/CreativeAgencyTemplate/' target="_blank">
-  
-<img src='https://img.shields.io/badge/Live Preview-green?style=for-the-badge'>
-  
-</a>
+<img src='https://img.shields.io/badge/Live Preview-green?style=for-the-badge'> </a>
   
 </div>
 
