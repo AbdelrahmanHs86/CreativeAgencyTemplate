@@ -9,7 +9,7 @@
 
 <div align='center'> 
 
-  <img src='https://img.shields.io/badge/Version-v1.2-gray?style=for-the-badge'>
+  <img src='https://img.shields.io/badge/Version-v1.1-gray?style=for-the-badge'>
   
   <a href='https://abdelrahmanhs86.github.io/CreativeAgencyTemplate/' target="_blank">
   
@@ -22,16 +22,16 @@
 <br>
 
 <!-- ![alt text](./mobile%20screen%20copy.jpg "Awesome Landing Page") -->
-<p  align="center"><img width="800"  src="https://github.com/AbdelrahmanHs86/Readme-Expreriment/blob/main/iPhone%20copy.jpg" /> </p>
+<!-- <p  align="center"><img width="800"  src="https://github.com/AbdelrahmanHs86/Readme-Expreriment/blob/main/iPhone%20copy.jpg" /> </p> -->
+<p  align="center"><img width="800"  src="https://github.com/AbdelrahmanHs86/CreativeAgencyTemplate/blob/master/images/showcase.webp" /> </p>
 <!-- <p  align="center"><img width="800"  src="https://github.com/AbdelrahmanHs86/Readme-Expreriment/blob/main/Web-Showcase-Project-Presentation.jpg" /> </p> -->
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Features:](#features)
-- [Tools and Languages:](#tools-and-languages)
+- [Features](#features)
+- [Tools and Languages](#tools-and-languages)
 - [Quick start](#quick-start)
 - [What is included](#what-is-included)
-  - [Version logs](#version-logs)
+- [Version logs](#version-logs)
 - [Useful Links](#useful-links)
 
 <!-- - [Server Rendering](#server-rendering)
@@ -111,9 +111,9 @@ CreativeAgencyTemplate/
 
 ```
 
-### Version logs
+## Version logs
 
-V1.2
+V1.1
 - Refactored with HTML5 and CSS3
 - Added responsiveness for mobile and tablet
 - Used flexbox layout system
